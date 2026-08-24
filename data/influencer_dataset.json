@@ -1,0 +1,2064 @@
+[
+  {
+    "id": "inf_edge_01",
+    "name": "MegaTech Star",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@megatechstar",
+    "followers": 165000,
+    "engagement_rate": 3.1,
+    "niche": "Technology",
+    "content_themes": [
+      "Smartphone Unboxing",
+      "MacBook Pro Reviews"
+    ],
+    "email": "contact@megatechstar.com",
+    "secondary_platform": null,
+    "secondary_url": null,
+    "website": null,
+    "audience_age": null,
+    "audience_gender": null,
+    "audience_geography": null,
+    "content_tone": "Authentic",
+    "recent_posts": [
+      "iPhone 17 Pro Max Review"
+    ],
+    "brand_fit_score": 8.5,
+    "status": "Disqualified",
+    "filter_passed": false,
+    "filter_reasons": [
+      "Disqualified: Follower count (165,000) exceeds the micro-influencer maximum (100,000)."
+    ]
+  },
+  {
+    "id": "inf_fit_10",
+    "name": "Coach Lucas HIIT",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@coachlucashiit",
+    "followers": 95600,
+    "engagement_rate": 3.7,
+    "niche": "Fitness",
+    "content_themes": [
+      "Tabata Intervals",
+      "Fat Loss Science",
+      "Home Cardio Circuits",
+      "Heart Rate Zone Training"
+    ],
+    "email": "collabs@coachlucasfit.com",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/coachlucashiit",
+    "website": "https://coachlucasfit.com",
+    "audience_age": "20-40 (78%)",
+    "audience_gender": "40% Female, 60% Male",
+    "audience_geography": "United States (55%), Canada (20%)",
+    "content_tone": "High-Intensity & Motivating",
+    "recent_posts": [
+      "20-Minute No-Repeat Full Body HIIT (Burn 300 Calories)",
+      "Zone 2 Cardio vs HIIT for Fat Loss: The Science",
+      "Knee-Friendly Low Impact Cardio for Heavy Lifters"
+    ],
+    "brand_fit_score": 9.0,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fitness', verified 95,600 followers (5k-100k tier), strong 3.7% engagement rate on YouTube, brand score 9.0/10."
+    ]
+  },
+  {
+    "id": "inf_game_02",
+    "name": "Mia Cozy Gamer",
+    "platform": "TikTok",
+    "profile_url": "https://tiktok.com/@miacozygamer",
+    "followers": 94300,
+    "engagement_rate": 6.8,
+    "niche": "Gaming",
+    "content_themes": [
+      "Nintendo Switch Setups",
+      "Pastel Gaming Rigs",
+      "Animal Crossing Inspo",
+      "Cozy Desk Aesthetic"
+    ],
+    "email": "mia@cozygamermedia.com",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/miacozygamer",
+    "website": "https://cozygamermedia.com",
+    "audience_age": "16-28 (88%)",
+    "audience_gender": "80% Female, 20% Male",
+    "audience_geography": "United States (60%), UK (20%), Australia (10%)",
+    "content_tone": "Aesthetic & Soothing",
+    "recent_posts": [
+      "Building a Pink & Green Pastel Gaming Desk Setup",
+      "5 Relaxing Cozy Games to De-Stress After Work",
+      "Custom Keycaps and Mechanical Keyboard Sound Test"
+    ],
+    "brand_fit_score": 9.4,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Gaming', verified 94,300 followers (5k-100k tier), strong 6.8% engagement rate on TikTok, brand score 9.4/10."
+    ]
+  },
+  {
+    "id": "inf_fb_10",
+    "name": "Nadia Hair & Glow",
+    "platform": "TikTok",
+    "profile_url": "https://tiktok.com/@nadiareviveshair",
+    "followers": 91200,
+    "engagement_rate": 4.9,
+    "niche": "Beauty",
+    "content_themes": [
+      "Curly Hair Care",
+      "Scalp Oiling",
+      "Bond Building Treatments",
+      "Heatless Curls"
+    ],
+    "email": "Not Found",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/nadiahairglow",
+    "website": null,
+    "audience_age": "18-30 (76%)",
+    "audience_gender": "92% Female, 8% Male",
+    "audience_geography": "United States (70%), UK (15%)",
+    "content_tone": "Upbeat & Step-by-Step",
+    "recent_posts": [
+      "Rosemary Oil Routine for Faster Hair Growth",
+      "How to Diffuse 3B Curls Without Frizz",
+      "Overnight Silk Heatless Curls Tutorial"
+    ],
+    "brand_fit_score": 8.8,
+    "status": "Skipped",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Beauty', verified 91,200 followers (5k-100k tier), strong 4.9% engagement rate on TikTok, brand score 8.8/10."
+    ]
+  },
+  {
+    "id": "inf_fin_06",
+    "name": "Arjun Wealth Habits",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@arjunwealthhabits",
+    "followers": 89400,
+    "engagement_rate": 3.5,
+    "niche": "Fintech",
+    "content_themes": [
+      "Real Estate Crowdfunding",
+      "Automated Wealth Building",
+      "FIRE Movement",
+      "Emergency Funds"
+    ],
+    "email": "business@arjunwealth.com",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/arjunwealthhabits",
+    "website": "https://arjunwealth.com",
+    "audience_age": "24-40 (82%)",
+    "audience_gender": "30% Female, 70% Male",
+    "audience_geography": "United States (55%), India (25%), UK (10%)",
+    "content_tone": "Methodical & Strategic",
+    "recent_posts": [
+      "How to Reach Financial Independence by 35 (FIRE Roadmap)",
+      "Real Estate Crowdfunding vs Physical Rental Properties",
+      "Automating Your Paycheck: The 50/30/20 Rule in Action"
+    ],
+    "brand_fit_score": 9.1,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fintech', verified 89,400 followers (5k-100k tier), strong 3.5% engagement rate on YouTube, brand score 9.1/10."
+    ]
+  },
+  {
+    "id": "inf_fb_09",
+    "name": "Camille Monet",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/camillemonetstyle",
+    "followers": 88400,
+    "engagement_rate": 2.9,
+    "niche": "Fashion",
+    "content_themes": [
+      "Parisian Chic",
+      "Silk Scarf Styling",
+      "Vintage Trench Coats",
+      "Workwear Inspo"
+    ],
+    "email": "collabs@camillemonet.fr",
+    "secondary_platform": "TikTok",
+    "secondary_url": "https://tiktok.com/@camillemonetstyle",
+    "website": "https://camillemonet.fr",
+    "audience_age": "24-42 (75%)",
+    "audience_gender": "88% Female, 12% Male",
+    "audience_geography": "France (45%), United States (30%), Germany (15%)",
+    "content_tone": "Graceful & Curated",
+    "recent_posts": [
+      "How to Tie Silk Scarves Like a Parisian",
+      "10 Work Outfits with Only 6 Pieces",
+      "Investing in Classic Leather Loafers"
+    ],
+    "brand_fit_score": 8.7,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fashion', verified 88,400 followers (5k-100k tier), strong 2.9% engagement rate on Instagram, brand score 8.7/10."
+    ]
+  },
+  {
+    "id": "inf_life_10",
+    "name": "Jordan Tiny Home Life",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@jordantinyhomelife",
+    "followers": 87500,
+    "engagement_rate": 4.1,
+    "niche": "Lifestyle",
+    "content_themes": [
+      "Tiny House Tours",
+      "Off-Grid Solar Setups",
+      "Rainwater Harvesting",
+      "Van Life Conversions"
+    ],
+    "email": "Not Found",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/jordantinyhomelife",
+    "website": "https://tinyhomelife.org",
+    "audience_age": "22-45 (80%)",
+    "audience_gender": "48% Female, 52% Male",
+    "audience_geography": "United States (70%), Canada (20%)",
+    "content_tone": "Resourceful & Inspiring",
+    "recent_posts": [
+      "Living in a 240 Sq Ft Modern Off-Grid Tiny House for 2 Years",
+      "Our DIY Solar & Battery Bank Setup Breakdown",
+      "Cost of Building a Custom Van Conversion from Scratch"
+    ],
+    "brand_fit_score": 8.9,
+    "status": "Skipped",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Lifestyle', verified 87,500 followers (5k-100k tier), strong 4.1% engagement rate on YouTube, brand score 8.9/10."
+    ]
+  },
+  {
+    "id": "inf_game_01",
+    "name": "Ray Pixel Pulse",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@raypixelpulse",
+    "followers": 86200,
+    "engagement_rate": 5.1,
+    "niche": "Gaming",
+    "content_themes": [
+      "Indie Game Reviews",
+      "Steam Deck Optimization",
+      "Pixel Art RPGs",
+      "Cozy Gaming"
+    ],
+    "email": "collabs@pixelpulse.gg",
+    "secondary_platform": "Twitch",
+    "secondary_url": "https://twitch.tv/raypixelpulse",
+    "website": "https://pixelpulse.gg",
+    "audience_age": "16-30 (85%)",
+    "audience_gender": "35% Female, 65% Male",
+    "audience_geography": "United States (55%), UK (20%), Canada (15%)",
+    "content_tone": "Passionate & Creative",
+    "recent_posts": [
+      "Top 10 Hidden Gem Indie Games on Steam Deck in 2026",
+      "Why Pixel Art Games Feel More Timeless Than AAA Graphics",
+      "This Farming Sim Has the Most Addictive Gameplay Loop"
+    ],
+    "brand_fit_score": 9.3,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Gaming', verified 86,200 followers (5k-100k tier), strong 5.1% engagement rate on YouTube, brand score 9.3/10."
+    ]
+  },
+  {
+    "id": "inf_fit_09",
+    "name": "Samira Pilates Flow",
+    "platform": "TikTok",
+    "profile_url": "https://tiktok.com/@samirapilatesflow",
+    "followers": 84200,
+    "engagement_rate": 4.1,
+    "niche": "Fitness",
+    "content_themes": [
+      "Mat Pilates",
+      "Posture Correction",
+      "Core Sculpting",
+      "Mind-Body Alignment"
+    ],
+    "email": "Not Found",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/samirapilates",
+    "website": null,
+    "audience_age": "18-35 (88%)",
+    "audience_gender": "90% Female, 10% Male",
+    "audience_geography": "United States (60%), UK (20%)",
+    "content_tone": "Calm & Graceful",
+    "recent_posts": [
+      "15-Minute Daily Mat Pilates for Pelvic Alignment",
+      "How to Fix Anterior Pelvic Tilt at Home",
+      "Full Body Burn without Any Equipment"
+    ],
+    "brand_fit_score": 8.7,
+    "status": "Skipped",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fitness', verified 84,200 followers (5k-100k tier), strong 4.1% engagement rate on TikTok, brand score 8.7/10."
+    ]
+  },
+  {
+    "id": "inf_tech_08",
+    "name": "CyberSamurai Leo",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@cybersamuraileo",
+    "followers": 82900,
+    "engagement_rate": 3.6,
+    "niche": "Technology",
+    "content_themes": [
+      "Ethical Hacking",
+      "Bug Bounty Hunting",
+      "Network Penetration",
+      "Zero-Day Analysis"
+    ],
+    "email": "leo@cybersamurai.security",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/cybersamuraileo",
+    "website": "https://cybersamurai.security",
+    "audience_age": "18-35 (88%)",
+    "audience_gender": "10% Female, 90% Male",
+    "audience_geography": "United States (45%), India (30%), Germany (15%)",
+    "content_tone": "Intense & Security-Obsessed",
+    "recent_posts": [
+      "Finding My First $10,000 Bug Bounty Vulnerability",
+      "Live Kali Linux Wi-Fi Audit Demonstration",
+      "Reverse Engineering Malware in Ghidra"
+    ],
+    "brand_fit_score": 8.8,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Technology', verified 82,900 followers (5k-100k tier), strong 3.6% engagement rate on YouTube, brand score 8.8/10."
+    ]
+  },
+  {
+    "id": "inf_life_05",
+    "name": "Leo Wander Nomad",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/leowandernomad",
+    "followers": 79200,
+    "engagement_rate": 3.9,
+    "niche": "Lifestyle",
+    "content_themes": [
+      "Digital Nomad Hacks",
+      "Coworking in Southeast Asia",
+      "Minimalist Packing",
+      "Travel Photography"
+    ],
+    "email": "Not Found",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@leowandernomad",
+    "website": "https://wandernomad.me",
+    "audience_age": "22-38 (82%)",
+    "audience_gender": "40% Female, 60% Male",
+    "audience_geography": "United States (45%), Germany (25%), UK (18%)",
+    "content_tone": "Adventurous & Authentic",
+    "recent_posts": [
+      "How I Live on $1400/Month as a Nomad in Chiang Mai",
+      "One-Bag Travel Packing List for 12 Months Anywhere",
+      "Best Cafes with Ultra Fast Wi-Fi in Tokyo for Remote Workers"
+    ],
+    "brand_fit_score": 9.0,
+    "status": "Skipped",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Lifestyle', verified 79,200 followers (5k-100k tier), strong 3.9% engagement rate on Instagram, brand score 9.0/10."
+    ]
+  },
+  {
+    "id": "inf_fit_01",
+    "name": "Marcus Calisthenics",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@marcuscalisthenics",
+    "followers": 76400,
+    "engagement_rate": 5.8,
+    "niche": "Fitness",
+    "content_themes": [
+      "Bodyweight Training",
+      "Planche Progression",
+      "Muscle-Up Tutorial",
+      "Mobility Drills"
+    ],
+    "email": "marcus@bodyweightforge.com",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/marcuscalisthenics",
+    "website": "https://bodyweightforge.com",
+    "audience_age": "18-30 (82%)",
+    "audience_gender": "12% Female, 88% Male",
+    "audience_geography": "United States (45%), UK (25%), Germany (18%)",
+    "content_tone": "Disciplined & Encouraging",
+    "recent_posts": [
+      "Unlock the Full Planche in 90 Days (Step-by-Step)",
+      "Top 3 Pull-Up Mistakes Destroying Your Shoulders",
+      "Zero Equipment Home Workout for Lean Muscle"
+    ],
+    "brand_fit_score": 9.4,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fitness', verified 76,400 followers (5k-100k tier), strong 5.8% engagement rate on YouTube, brand score 9.4/10."
+    ]
+  },
+  {
+    "id": "inf_fb_07",
+    "name": "Sophie Laurent",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/sophielaurentparis",
+    "followers": 74500,
+    "engagement_rate": 3.4,
+    "niche": "Beauty",
+    "content_themes": [
+      "French Girl Makeup",
+      "Luxury Skincare",
+      "Red Lip Secrets",
+      "Perfume Layering"
+    ],
+    "email": "partnership@sophielaurent.com",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@sophielaurent",
+    "website": "https://sophielaurent.com",
+    "audience_age": "25-45 (80%)",
+    "audience_gender": "90% Female, 10% Male",
+    "audience_geography": "France (35%), US (35%), UK (20%)",
+    "content_tone": "Elegant & Minimalist",
+    "recent_posts": [
+      "The Effortless 5-Minute French Morning Glow",
+      "Cult French Pharmacy Skincare Holy Grails",
+      "My Signature Amber & Iris Fragrance Combinations"
+    ],
+    "brand_fit_score": 9.1,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Beauty', verified 74,500 followers (5k-100k tier), strong 3.4% engagement rate on Instagram, brand score 9.1/10."
+    ]
+  },
+  {
+    "id": "inf_tech_02",
+    "name": "Sarah Chen AI",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@sarahchenai",
+    "followers": 71200,
+    "engagement_rate": 5.4,
+    "niche": "Technology",
+    "content_themes": [
+      "AI Research Breakdowns",
+      "Agentic Workflows",
+      "Prompt Optimization",
+      "Machine Learning"
+    ],
+    "email": "partnerships@sarahchen.ai",
+    "secondary_platform": "TikTok",
+    "secondary_url": "https://tiktok.com/@sarahchenai",
+    "website": "https://sarahchen.ai",
+    "audience_age": "22-38 (86%)",
+    "audience_gender": "28% Female, 72% Male",
+    "audience_geography": "United States (55%), UK (20%), Canada (12%)",
+    "content_tone": "Intellectual & Visionary",
+    "recent_posts": [
+      "How Multi-Agent Systems Actually Work in 2026",
+      "Fine-Tuning Open Source LLMs on Custom Datasets",
+      "Evaluating LLM Hallucinations: Frameworks & Benchmarks"
+    ],
+    "brand_fit_score": 9.7,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Technology', verified 71,200 followers (5k-100k tier), strong 5.4% engagement rate on YouTube, brand score 9.7/10."
+    ]
+  },
+  {
+    "id": "inf_life_03",
+    "name": "Harper Daily Vlogs",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@harperdailyvlogs",
+    "followers": 68900,
+    "engagement_rate": 4.2,
+    "niche": "Lifestyle",
+    "content_themes": [
+      "Solo Travel",
+      "Apartment Reset",
+      "Healthy Weekly Meal Prep",
+      "Sunday Routine"
+    ],
+    "email": "harper@vlogcollective.co",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/harpervlogs",
+    "website": "https://harpervlogs.co",
+    "audience_age": "18-32 (84%)",
+    "audience_gender": "80% Female, 20% Male",
+    "audience_geography": "United States (60%), UK (20%), Australia (12%)",
+    "content_tone": "Intimate & Cozy",
+    "recent_posts": [
+      "Productive Sunday Apartment Reset & Deep Clean with Me",
+      "Solo Weekend Trip to Kyoto: Budget & Hidden Spots",
+      "Realistic Healthy Meal Prep for Busy Workweeks"
+    ],
+    "brand_fit_score": 9.2,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Lifestyle', verified 68,900 followers (5k-100k tier), strong 4.2% engagement rate on YouTube, brand score 9.2/10."
+    ]
+  },
+  {
+    "id": "inf_fit_05",
+    "name": "Leo Hybrid Athlete",
+    "platform": "TikTok",
+    "profile_url": "https://tiktok.com/@leohybridathlete",
+    "followers": 67300,
+    "engagement_rate": 6.7,
+    "niche": "Fitness",
+    "content_themes": [
+      "Marathon Training + Heavy Lifting",
+      "Endurance Fueling",
+      "Recovery Protocols",
+      "Ice Baths"
+    ],
+    "email": "Not Found",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/leohybridathlete",
+    "website": null,
+    "audience_age": "18-32 (78%)",
+    "audience_gender": "30% Female, 70% Male",
+    "audience_geography": "United States (55%), UK (20%), Canada (15%)",
+    "content_tone": "High-Energy & Gritty",
+    "recent_posts": [
+      "Running a Sub-3 Marathon While Deadlifting 500lbs",
+      "What I Eat in a Day: 4200 Calories for Hybrid Athletes",
+      "How to Avoid Shin Splints on High Mileage Weeks"
+    ],
+    "brand_fit_score": 9.0,
+    "status": "Skipped",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fitness', verified 67,300 followers (5k-100k tier), strong 6.7% engagement rate on TikTok, brand score 9.0/10."
+    ]
+  },
+  {
+    "id": "inf_tech_06",
+    "name": "DevPulse Jordan",
+    "platform": "TikTok",
+    "profile_url": "https://tiktok.com/@devpulsejordan",
+    "followers": 64200,
+    "engagement_rate": 5.9,
+    "niche": "Technology",
+    "content_themes": [
+      "Tech Career Advice",
+      "FAANG Interview Prep",
+      "System Architecture",
+      "AI Coding Tools"
+    ],
+    "email": "jordan@devpulseglobal.com",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@devpulsejordan",
+    "website": "https://devpulseglobal.com",
+    "audience_age": "18-28 (75%)",
+    "audience_gender": "25% Female, 75% Male",
+    "audience_geography": "United States (60%), Canada (20%)",
+    "content_tone": "Punchy & Direct",
+    "recent_posts": [
+      "Why AI Won't Replace Junior Devs Who Understand Systems",
+      "How I Passed the Google L5 System Design Interview",
+      "3 VS Code Extensions That Save 5 Hours Weekly"
+    ],
+    "brand_fit_score": 9.2,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Technology', verified 64,200 followers (5k-100k tier), strong 5.9% engagement rate on TikTok, brand score 9.2/10."
+    ]
+  },
+  {
+    "id": "inf_life_08",
+    "name": "Mia Eco Habitude",
+    "platform": "TikTok",
+    "profile_url": "https://tiktok.com/@miaecohabitude",
+    "followers": 63700,
+    "engagement_rate": 5.4,
+    "niche": "Lifestyle",
+    "content_themes": [
+      "Zero Waste Swaps",
+      "Composting in Small Flats",
+      "Bulk Shopping",
+      "DIY Cleaners"
+    ],
+    "email": "mia@ecohabitude.com",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/miaecohabitude",
+    "website": "https://ecohabitude.com",
+    "audience_age": "18-32 (82%)",
+    "audience_gender": "78% Female, 22% Male",
+    "audience_geography": "United States (60%), UK (20%)",
+    "content_tone": "Practical & Eco-Conscious",
+    "recent_posts": [
+      "10 Zero-Waste Kitchen Swaps That Actually Save Money",
+      "How to Compost in a Tiny Apartment Without Odors",
+      "DIY Natural Surface Cleaner with Citrus Peels & Vinegar"
+    ],
+    "brand_fit_score": 9.0,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Lifestyle', verified 63,700 followers (5k-100k tier), strong 5.4% engagement rate on TikTok, brand score 9.0/10."
+    ]
+  },
+  {
+    "id": "inf_fb_03",
+    "name": "Dr. Ananya Sharma",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/drananyaskin",
+    "followers": 62100,
+    "engagement_rate": 3.8,
+    "niche": "Beauty",
+    "content_themes": [
+      "Dermatologist Tips",
+      "Hyperpigmentation",
+      "Acne Science",
+      "Sunscreen Facts"
+    ],
+    "email": "contact@drananyaskin.com",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@drananyasharma",
+    "website": "https://drananya.com",
+    "audience_age": "22-38 (74%)",
+    "audience_gender": "76% Female, 24% Male",
+    "audience_geography": "United States (45%), India (35%), UK (10%)",
+    "content_tone": "Authoritative & Science-Backed",
+    "recent_posts": [
+      "Why Retinol Purging Happens and How to Manage It",
+      "Top 3 Vitamin C Serums for Post-Acne Marks",
+      "Mineral vs Chemical Sunscreen: The Real Dermatologist Verdict"
+    ],
+    "brand_fit_score": 9.6,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Beauty', verified 62,100 followers (5k-100k tier), strong 3.8% engagement rate on Instagram, brand score 9.6/10."
+    ]
+  },
+  {
+    "id": "inf_fin_02",
+    "name": "Elena Smart Stash",
+    "platform": "TikTok",
+    "profile_url": "https://tiktok.com/@elenasmartstash",
+    "followers": 61400,
+    "engagement_rate": 6.3,
+    "niche": "Fintech",
+    "content_themes": [
+      "Cash Stuffing",
+      "Micro-Investing Apps",
+      "Student Loan Payoff",
+      "Frugal Living"
+    ],
+    "email": "elena@smartstashmedia.com",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/elenasmartstash",
+    "website": "https://smartstashmedia.com",
+    "audience_age": "18-30 (80%)",
+    "audience_gender": "65% Female, 35% Male",
+    "audience_geography": "United States (75%), UK (15%)",
+    "content_tone": "Upbeat & Empowering",
+    "recent_posts": [
+      "How I Saved $15k in 1 Year Making $45k/Year",
+      "Top 3 Micro-Investing Apps That Round Up Your Spare Change",
+      "Avoid These 4 Sneaky Subscription Traps"
+    ],
+    "brand_fit_score": 9.2,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fintech', verified 61,400 followers (5k-100k tier), strong 6.3% engagement rate on TikTok, brand score 9.2/10."
+    ]
+  },
+  {
+    "id": "inf_game_05",
+    "name": "Ryan Tactical Nade",
+    "platform": "TikTok",
+    "profile_url": "https://tiktok.com/@tacticalnaderyan",
+    "followers": 58900,
+    "engagement_rate": 5.9,
+    "niche": "Gaming",
+    "content_themes": [
+      "Valorant Lineups",
+      "CS2 Smokes & Flashes",
+      "Clutch Breakdowns",
+      "Settings Optimization"
+    ],
+    "email": "Not Found",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@tacticalnade",
+    "website": null,
+    "audience_age": "15-26 (90%)",
+    "audience_gender": "15% Female, 85% Male",
+    "audience_geography": "United States (55%), UK (20%), Germany (12%)",
+    "content_tone": "Punchy & Quick-Hit",
+    "recent_posts": [
+      "5 Sova Lineups That Will Win You Every Haven Game",
+      "Mirage Window Smoke That Works Every Single Round",
+      "How to Clutch 1v3 Situations Without Panicking"
+    ],
+    "brand_fit_score": 8.6,
+    "status": "Skipped",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Gaming', verified 58,900 followers (5k-100k tier), strong 5.9% engagement rate on TikTok, brand score 8.6/10."
+    ]
+  },
+  {
+    "id": "inf_tech_01",
+    "name": "Alex Rivera Dev",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@alexriveradev",
+    "followers": 58300,
+    "engagement_rate": 4.9,
+    "niche": "Technology",
+    "content_themes": [
+      "Fullstack Python",
+      "LLM Engineering",
+      "FastAPI Tutorials",
+      "Cloud Architecture"
+    ],
+    "email": "alex@riveradev.io",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/alexriveradev",
+    "website": "https://riveradev.io",
+    "audience_age": "20-35 (84%)",
+    "audience_gender": "18% Female, 82% Male",
+    "audience_geography": "United States (45%), India (25%), Germany (15%)",
+    "content_tone": "Practical & Code-First",
+    "recent_posts": [
+      "Building a Production RAG System in Python from Scratch",
+      "Dockerizing Microservices with Async Workers",
+      "Top 5 FastAPI Patterns I Use in Production"
+    ],
+    "brand_fit_score": 9.5,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Technology', verified 58,300 followers (5k-100k tier), strong 4.9% engagement rate on YouTube, brand score 9.5/10."
+    ]
+  },
+  {
+    "id": "inf_life_01",
+    "name": "Freja Nordic Living",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/frejanordicliving",
+    "followers": 56700,
+    "engagement_rate": 4.7,
+    "niche": "Lifestyle",
+    "content_themes": [
+      "Scandinavian Interiors",
+      "Hygge Habits",
+      "Slow Morning Rituals",
+      "Neutral Aesthetics"
+    ],
+    "email": "freja@nordiclivingmedia.dk",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@frejanordicliving",
+    "website": "https://frejanordicliving.dk",
+    "audience_age": "24-42 (82%)",
+    "audience_gender": "86% Female, 14% Male",
+    "audience_geography": "Denmark (30%), United States (40%), UK (20%)",
+    "content_tone": "Warm & Calming",
+    "recent_posts": [
+      "Creating a Calming Danish Hygge Living Room for Autumn",
+      "My 6 AM Slow Coffee & Journaling Routine",
+      "Minimalist Home Decor Swaps That Add Warmth"
+    ],
+    "brand_fit_score": 9.4,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Lifestyle', verified 56,700 followers (5k-100k tier), strong 4.7% engagement rate on Instagram, brand score 9.4/10."
+    ]
+  },
+  {
+    "id": "inf_fin_08",
+    "name": "Sarah Money Mindset",
+    "platform": "TikTok",
+    "profile_url": "https://tiktok.com/@sarahmoneymindset",
+    "followers": 55800,
+    "engagement_rate": 5.1,
+    "niche": "Fintech",
+    "content_themes": [
+      "Psychology of Spending",
+      "Zero-Based Budgeting",
+      "Salary Negotiation",
+      "Debt Free Journey"
+    ],
+    "email": "Not Found",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/sarahmoneymindset",
+    "website": null,
+    "audience_age": "20-35 (75%)",
+    "audience_gender": "70% Female, 30% Male",
+    "audience_geography": "United States (70%), Canada (20%)",
+    "content_tone": "Warm & Inspiring",
+    "recent_posts": [
+      "How I Negotiated a $25k Salary Increase Using This Script",
+      "The Psychology Behind Impulsive Online Shopping",
+      "Debt Snowball vs Avalanche: Which One Gives Quick Wins?"
+    ],
+    "brand_fit_score": 8.9,
+    "status": "Skipped",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fintech', verified 55,800 followers (5k-100k tier), strong 5.1% engagement rate on TikTok, brand score 8.9/10."
+    ]
+  },
+  {
+    "id": "inf_fit_02",
+    "name": "Coach Priya Patel",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/priyapatelfit",
+    "followers": 53200,
+    "engagement_rate": 6.1,
+    "niche": "Fitness",
+    "content_themes": [
+      "Women's Strength Training",
+      "PCOS Nutrition",
+      "High-Protein Meals",
+      "Form Checks"
+    ],
+    "email": "priya@priyapatelfitness.com",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@priyapatelfit",
+    "website": "https://priyapatelfitness.com",
+    "audience_age": "20-35 (86%)",
+    "audience_gender": "82% Female, 18% Male",
+    "audience_geography": "United States (40%), India (35%), UK (15%)",
+    "content_tone": "Warm & Inspiring",
+    "recent_posts": [
+      "How to Hip Thrust 100kg Without Lower Back Pain",
+      "3 High-Protein Indian Meal Prep Recipes (35g Protein)",
+      "Strength Training with PCOS: What Science Actually Says"
+    ],
+    "brand_fit_score": 9.6,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fitness', verified 53,200 followers (5k-100k tier), strong 6.1% engagement rate on Instagram, brand score 9.6/10."
+    ]
+  },
+  {
+    "id": "inf_fb_06",
+    "name": "Zoe Kravitz DIY",
+    "platform": "TikTok",
+    "profile_url": "https://tiktok.com/@zoekravitzcrafts",
+    "followers": 52300,
+    "engagement_rate": 7.2,
+    "niche": "Fashion",
+    "content_themes": [
+      "Upcycling Clothes",
+      "Y2K Fashion",
+      "Embroidery Hacks",
+      "Eco-Friendly Fashion"
+    ],
+    "email": "Not Found",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/zoekcrafts",
+    "website": null,
+    "audience_age": "16-24 (70%)",
+    "audience_gender": "85% Female, 15% Male",
+    "audience_geography": "United States (60%), UK (20%)",
+    "content_tone": "Playful & Creative",
+    "recent_posts": [
+      "Turning Thrifted Menswear into a 2-Piece Set",
+      "Hand Embroidering Vintage Levi's Denim",
+      "Sewing a Runway-Inspired Satin Corset in 4 Hours"
+    ],
+    "brand_fit_score": 8.4,
+    "status": "Skipped",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fashion', verified 52,300 followers (5k-100k tier), strong 7.2% engagement rate on TikTok, brand score 8.4/10."
+    ]
+  },
+  {
+    "id": "inf_tech_09",
+    "name": "ByteSize AI Maya",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/bytesize.ai",
+    "followers": 49800,
+    "engagement_rate": 5.7,
+    "niche": "Technology",
+    "content_themes": [
+      "AI Productivity Hacks",
+      "LLM Workflows",
+      "Generative Art",
+      "Automation Tools"
+    ],
+    "email": "hello@bytesizeai.co",
+    "secondary_platform": "TikTok",
+    "secondary_url": "https://tiktok.com/@bytesize.ai",
+    "website": "https://bytesizeai.co",
+    "audience_age": "22-38 (70%)",
+    "audience_gender": "45% Female, 55% Male",
+    "audience_geography": "United States (60%), UK (25%)",
+    "content_tone": "Visual & Actionable",
+    "recent_posts": [
+      "How to Automate 80% of Marketing Copy with Claude & Make",
+      "Top 5 Open Source AI Models Crushing Proprietary APIs",
+      "Building Custom GPTs for Customer Support"
+    ],
+    "brand_fit_score": 9.4,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Technology', verified 49,800 followers (5k-100k tier), strong 5.7% engagement rate on Instagram, brand score 9.4/10."
+    ]
+  },
+  {
+    "id": "inf_fin_01",
+    "name": "Max Sterling Finance",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@maxsterlingfinance",
+    "followers": 48700,
+    "engagement_rate": 4.8,
+    "niche": "Fintech",
+    "content_themes": [
+      "Index Fund Investing",
+      "High Yield Savings Apps",
+      "Credit Card Rewards",
+      "Budgeting Systems"
+    ],
+    "email": "partnerships@sterlingwealth.media",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/maxsterlingfinance",
+    "website": "https://sterlingwealth.media",
+    "audience_age": "22-38 (85%)",
+    "audience_gender": "25% Female, 75% Male",
+    "audience_geography": "United States (70%), Canada (18%)",
+    "content_tone": "Analytical & Sober",
+    "recent_posts": [
+      "Best High-Yield Savings Accounts for 2026 Ranked",
+      "How to Max Out Your Roth IRA in Your 20s",
+      "The Ultimate 3-Card Travel Reward Strategy"
+    ],
+    "brand_fit_score": 9.5,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fintech', verified 48,700 followers (5k-100k tier), strong 4.8% engagement rate on YouTube, brand score 9.5/10."
+    ]
+  },
+  {
+    "id": "inf_life_07",
+    "name": "Noah Minimalist Space",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@noahminimalistspace",
+    "followers": 48100,
+    "engagement_rate": 4.6,
+    "niche": "Lifestyle",
+    "content_themes": [
+      "Decluttering Method",
+      "Digital Minimalism",
+      "Japanese Interior Design",
+      "Mindful Living"
+    ],
+    "email": "noah@minimalspace.org",
+    "secondary_platform": null,
+    "secondary_url": null,
+    "website": "https://minimalspace.org",
+    "audience_age": "22-40 (80%)",
+    "audience_gender": "45% Female, 55% Male",
+    "audience_geography": "United States (55%), Canada (20%), UK (15%)",
+    "content_tone": "Philosophical & Clean",
+    "recent_posts": [
+      "How Getting Rid of 80% of My Belongings Changed My Life",
+      "Digital Declutter: Organizing 100k Photos & Files",
+      "Japanese Wabi-Sabi Aesthetics for Small Apartments"
+    ],
+    "brand_fit_score": 9.1,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Lifestyle', verified 48,100 followers (5k-100k tier), strong 4.6% engagement rate on YouTube, brand score 9.1/10."
+    ]
+  },
+  {
+    "id": "inf_game_03",
+    "name": "Kai Apex Tactics",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@kaiapextactics",
+    "followers": 47600,
+    "engagement_rate": 4.5,
+    "niche": "Gaming",
+    "content_themes": [
+      "FPS Aim Training",
+      "Competitive Mechanics",
+      "Game Sense Guides",
+      "Audio Settings"
+    ],
+    "email": "kai@apextactics.gg",
+    "secondary_platform": "TikTok",
+    "secondary_url": "https://tiktok.com/@kaiapextactics",
+    "website": null,
+    "audience_age": "16-28 (88%)",
+    "audience_gender": "10% Female, 90% Male",
+    "audience_geography": "United States (65%), Canada (15%)",
+    "content_tone": "Analytical & High-Energy",
+    "recent_posts": [
+      "How to Fix Your Micro-Adjustments in Aim Lab",
+      "Positional Awareness Guide for Master/Predator Lobbies",
+      "Best Audio Equalizer Settings to Hear Enemy Footsteps Clearly"
+    ],
+    "brand_fit_score": 8.9,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Gaming', verified 47,600 followers (5k-100k tier), strong 4.5% engagement rate on YouTube, brand score 8.9/10."
+    ]
+  },
+  {
+    "id": "inf_fb_02",
+    "name": "Chloe Bennett",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@chloeglowsbeauty",
+    "followers": 45200,
+    "engagement_rate": 5.1,
+    "niche": "Beauty",
+    "content_themes": [
+      "Clean Beauty Reviews",
+      "Non-Toxic Makeup Swatches",
+      "Dewy Skin Tutorials"
+    ],
+    "email": "chloe@glowmgmt.agency",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/chloeglows",
+    "website": "https://chloeglows.com",
+    "audience_age": "20-35 (78%)",
+    "audience_gender": "88% Female, 12% Male",
+    "audience_geography": "United States (70%), UK (15%)",
+    "content_tone": "Warm & Aesthetic",
+    "recent_posts": [
+      "Full Face of Clean Drugstore Makeup That Actually Lasts",
+      "My Holy Grail Tinted Moisturizers Ranked",
+      "Honest Review: Viral Cloud Skin Foundation"
+    ],
+    "brand_fit_score": 9.4,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Beauty', verified 45,200 followers (5k-100k tier), strong 5.1% engagement rate on YouTube, brand score 9.4/10."
+    ]
+  },
+  {
+    "id": "inf_fit_04",
+    "name": "Anya Mobility & Yoga",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/anyaflowyoga",
+    "followers": 44100,
+    "engagement_rate": 5.2,
+    "niche": "Fitness",
+    "content_themes": [
+      "Vinyasa Flows",
+      "Hip Opening Stretches",
+      "Desk Worker Mobility",
+      "Mindfulness"
+    ],
+    "email": "collabs@anyaflowyoga.com",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@anyaflowyoga",
+    "website": "https://anyaflowyoga.com",
+    "audience_age": "24-45 (80%)",
+    "audience_gender": "78% Female, 22% Male",
+    "audience_geography": "United States (50%), UK (25%), Australia (15%)",
+    "content_tone": "Serene & Grounding",
+    "recent_posts": [
+      "10-Minute Daily Mobility Routine for Desk Workers",
+      "Release Tight Hip Flexors with These 4 Poses",
+      "Morning Vinyasa Flow to Wake Up Your Spine"
+    ],
+    "brand_fit_score": 9.3,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fitness', verified 44,100 followers (5k-100k tier), strong 5.2% engagement rate on Instagram, brand score 9.3/10."
+    ]
+  },
+  {
+    "id": "inf_life_02",
+    "name": "Claire Mindful Mama",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/clairemindfulmama",
+    "followers": 42300,
+    "engagement_rate": 5.6,
+    "niche": "Parenting",
+    "content_themes": [
+      "Montessori at Home",
+      "Toddler Tantrums Science",
+      "Sensory Play Ideas",
+      "Gentle Parenting"
+    ],
+    "email": "claire@mindfulmamajourney.com",
+    "secondary_platform": "TikTok",
+    "secondary_url": "https://tiktok.com/@clairemindfulmama",
+    "website": "https://mindfulmamajourney.com",
+    "audience_age": "25-40 (90%)",
+    "audience_gender": "92% Female, 8% Male",
+    "audience_geography": "United States (65%), Canada (20%)",
+    "content_tone": "Nurturing & Gentle",
+    "recent_posts": [
+      "5 Low-Cost Montessori Shelf Toys for 2-Year-Olds",
+      "How to De-escalate a Toddler Meltdown with Empathy",
+      "Quick 15-Minute Sensory Bin Setup with Pantry Staples"
+    ],
+    "brand_fit_score": 9.6,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Parenting', verified 42,300 followers (5k-100k tier), strong 5.6% engagement rate on Instagram, brand score 9.6/10."
+    ]
+  },
+  {
+    "id": "inf_tech_03",
+    "name": "Karan Singhania",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/codewithkaran",
+    "followers": 41800,
+    "engagement_rate": 6.2,
+    "niche": "Technology",
+    "content_themes": [
+      "Developer Lifestyle",
+      "Clean Code Tips",
+      "React & Next.js",
+      "Remote Work Setups"
+    ],
+    "email": "karan@codewithkaran.dev",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@codewithkaran",
+    "website": "https://codewithkaran.dev",
+    "audience_age": "18-28 (78%)",
+    "audience_gender": "22% Female, 78% Male",
+    "audience_geography": "India (50%), United States (30%), UK (10%)",
+    "content_tone": "Relatable & Educational",
+    "recent_posts": [
+      "My $3500 Minimalist Coding Desk Setup Tour",
+      "5 JavaScript Array Methods You Should Master Today",
+      "Day in the Life of a Remote Senior AI Engineer"
+    ],
+    "brand_fit_score": 9.0,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Technology', verified 41,800 followers (5k-100k tier), strong 6.2% engagement rate on Instagram, brand score 9.0/10."
+    ]
+  },
+  {
+    "id": "inf_game_08",
+    "name": "Kiran VR Explorer",
+    "platform": "TikTok",
+    "profile_url": "https://tiktok.com/@kiranvrexplorer",
+    "followers": 41500,
+    "engagement_rate": 5.0,
+    "niche": "Gaming",
+    "content_themes": [
+      "Meta Quest 3 Reviews",
+      "Mixed Reality Apps",
+      "VR Fitness Games",
+      "Immersive Gaming"
+    ],
+    "email": "Not Found",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@kiranvrexplorer",
+    "website": null,
+    "audience_age": "16-30 (80%)",
+    "audience_gender": "25% Female, 75% Male",
+    "audience_geography": "United States (60%), UK (20%)",
+    "content_tone": "Energetic & Visual",
+    "recent_posts": [
+      "5 Must-Play Mixed Reality Games on Meta Quest 3",
+      "Burning 500 Calories Playing Beat Saber and Les Mills VR",
+      "Is VR Gaming Finally Ready for Mainstream in 2026?"
+    ],
+    "brand_fit_score": 8.7,
+    "status": "Skipped",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Gaming', verified 41,500 followers (5k-100k tier), strong 5.0% engagement rate on TikTok, brand score 8.7/10."
+    ]
+  },
+  {
+    "id": "inf_fin_03",
+    "name": "Rohan Crypto Insights",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@rohancryptoinsights",
+    "followers": 39100,
+    "engagement_rate": 4.1,
+    "niche": "Crypto",
+    "content_themes": [
+      "Layer 2 Scaling",
+      "DeFi Protocols",
+      "Hardware Wallet Security",
+      "On-Chain Analytics"
+    ],
+    "email": "collabs@rohancrypto.io",
+    "secondary_platform": "Twitter/X",
+    "secondary_url": "https://x.com/rohancrypto",
+    "website": "https://rohancrypto.io",
+    "audience_age": "20-35 (88%)",
+    "audience_gender": "10% Female, 90% Male",
+    "audience_geography": "United States (40%), India (30%), Singapore (15%)",
+    "content_tone": "Deep-Dive & Security-Centric",
+    "recent_posts": [
+      "Understanding Zero-Knowledge Proofs in DeFi",
+      "Hardware Wallet Comparison: Ledger vs Trezor vs Tangem",
+      "How to Read On-Chain Liquidity Pools"
+    ],
+    "brand_fit_score": 8.7,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Crypto', verified 39,100 followers (5k-100k tier), strong 4.1% engagement rate on YouTube, brand score 8.7/10."
+    ]
+  },
+  {
+    "id": "inf_fb_04",
+    "name": "Elena Vance",
+    "platform": "TikTok",
+    "profile_url": "https://tiktok.com/@elenastyleguide",
+    "followers": 38900,
+    "engagement_rate": 6.4,
+    "niche": "Fashion",
+    "content_themes": [
+      "Capsule Wardrobe",
+      "Old Money Aesthetic",
+      "Sustainable Styling",
+      "Thrift Flips"
+    ],
+    "email": "elena.vance.mgmt@gmail.com",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/elenastyleguide",
+    "website": null,
+    "audience_age": "18-28 (65%), 29-35 (25%)",
+    "audience_gender": "79% Female, 21% Male",
+    "audience_geography": "United States (58%), Canada (14%), Australia (12%)",
+    "content_tone": "Chic & Fast-Paced",
+    "recent_posts": [
+      "10 Capsule Wardrobe Pieces for 30 Spring Outfits",
+      "How to Style a Linen Blazer 5 Ways",
+      "High-End vs High-Street Trench Coat Comparison"
+    ],
+    "brand_fit_score": 8.9,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fashion', verified 38,900 followers (5k-100k tier), strong 6.4% engagement rate on TikTok, brand score 8.9/10."
+    ]
+  },
+  {
+    "id": "inf_fit_03",
+    "name": "Coach Dan Strength",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@coachdanstrength",
+    "followers": 38700,
+    "engagement_rate": 4.4,
+    "niche": "Fitness",
+    "content_themes": [
+      "Powerlifting Mechanics",
+      "Squat Mobility",
+      "Hypertrophy Science",
+      "Dietary Supplements"
+    ],
+    "email": "dan@apexstrengthlab.com",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/coachdanstrength",
+    "website": "https://apexstrengthlab.com",
+    "audience_age": "20-38 (84%)",
+    "audience_gender": "20% Female, 80% Male",
+    "audience_geography": "United States (60%), Canada (20%)",
+    "content_tone": "Scientific & Hardcore",
+    "recent_posts": [
+      "How to Fix a Leaning Squat (Hip vs Ankle Mobility)",
+      "Creatine Monohydrate: Debunking 7 Common Myths",
+      "The Ultimate Upper/Lower Split for Natural Lifters"
+    ],
+    "brand_fit_score": 9.1,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fitness', verified 38,700 followers (5k-100k tier), strong 4.4% engagement rate on YouTube, brand score 9.1/10."
+    ]
+  },
+  {
+    "id": "inf_life_09",
+    "name": "Sarah Plant Sanctuary",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/sarahplantsanctuary",
+    "followers": 37200,
+    "engagement_rate": 5.8,
+    "niche": "Lifestyle",
+    "content_themes": [
+      "Indoor Houseplant Care",
+      "Monstera Propagation",
+      "Pest Management",
+      "Urban Jungle"
+    ],
+    "email": "collabs@plantsanctuary.co",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@sarahplantsanctuary",
+    "website": "https://plantsanctuary.co",
+    "audience_age": "20-38 (85%)",
+    "audience_gender": "75% Female, 25% Male",
+    "audience_geography": "United States (65%), Canada (18%)",
+    "content_tone": "Nurturing & Green",
+    "recent_posts": [
+      "How to Propagate Rare Monstera Variegata Safely",
+      "Natural Ways to Eliminate Fungus Gnats Fast",
+      "Top 5 Hard-to-Kill Houseplants for Low Light Rooms"
+    ],
+    "brand_fit_score": 9.2,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Lifestyle', verified 37,200 followers (5k-100k tier), strong 5.8% engagement rate on Instagram, brand score 9.2/10."
+    ]
+  },
+  {
+    "id": "inf_life_04",
+    "name": "Dave Toddler Trek",
+    "platform": "TikTok",
+    "profile_url": "https://tiktok.com/@toddlertrekdave",
+    "followers": 35400,
+    "engagement_rate": 6.9,
+    "niche": "Parenting",
+    "content_themes": [
+      "Dad Humor",
+      "Outdoor Activities with Kids",
+      "Toddler Snack Hacks",
+      "Family Camping"
+    ],
+    "email": "dave@toddlertrek.com",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/toddlertrekdave",
+    "website": null,
+    "audience_age": "24-40 (85%)",
+    "audience_gender": "55% Female, 45% Male",
+    "audience_geography": "United States (70%), Canada (18%)",
+    "content_tone": "Humorous & Relatable",
+    "recent_posts": [
+      "Camping with a 3-Year-Old: Survival Guide for Dads",
+      "Snack Hacks for Road Trips That Won't Make a Mess",
+      "When Your Kid Insists on Wearing Rain Boots to Bed"
+    ],
+    "brand_fit_score": 9.1,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Parenting', verified 35,400 followers (5k-100k tier), strong 6.9% engagement rate on TikTok, brand score 9.1/10."
+    ]
+  },
+  {
+    "id": "inf_fit_08",
+    "name": "Tara Plant-Based Gains",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/taraplantgains",
+    "followers": 34900,
+    "engagement_rate": 5.5,
+    "niche": "Fitness",
+    "content_themes": [
+      "Vegan Meal Prep",
+      "Plant Protein Sources",
+      "Hypertrophy for Vegans",
+      "Supplement Stack"
+    ],
+    "email": "tara@plantgainskitchen.com",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@taraplantgains",
+    "website": "https://plantgainskitchen.com",
+    "audience_age": "20-38 (84%)",
+    "audience_gender": "55% Female, 45% Male",
+    "audience_geography": "United States (50%), UK (25%), Germany (15%)",
+    "content_tone": "Enthusiastic & Educational",
+    "recent_posts": [
+      "High-Protein Vegan Meal Prep (140g Protein/Day under $40)",
+      "Do You Need BCAA on a Plant-Based Diet?",
+      "3-Year Vegan Body Transformation Before & After"
+    ],
+    "brand_fit_score": 9.2,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fitness', verified 34,900 followers (5k-100k tier), strong 5.5% engagement rate on Instagram, brand score 9.2/10."
+    ]
+  },
+  {
+    "id": "inf_tech_07",
+    "name": "Nate Quantum Code",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@natequantumcode",
+    "followers": 33100,
+    "engagement_rate": 4.7,
+    "niche": "Technology",
+    "content_themes": [
+      "Quantum Computing Basics",
+      "Qiskit Demos",
+      "High Performance Python",
+      "Linear Algebra"
+    ],
+    "email": "collabs@natequantum.org",
+    "secondary_platform": null,
+    "secondary_url": null,
+    "website": "https://natequantum.org",
+    "audience_age": "20-35 (80%)",
+    "audience_gender": "20% Female, 80% Male",
+    "audience_geography": "United States (50%), UK (20%), India (15%)",
+    "content_tone": "Academic yet Accessible",
+    "recent_posts": [
+      "Simulating Quantum Entanglement in 100 Lines of Python",
+      "What Quantum Supremacy Actually Means for Cryptography",
+      "Qiskit 1.0 Crash Course for Software Engineers"
+    ],
+    "brand_fit_score": 8.9,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Technology', verified 33,100 followers (5k-100k tier), strong 4.7% engagement rate on YouTube, brand score 8.9/10."
+    ]
+  },
+  {
+    "id": "inf_fin_05",
+    "name": "Nina Fintech Simplified",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/fintechsimplified",
+    "followers": 32800,
+    "engagement_rate": 4.6,
+    "niche": "Fintech",
+    "content_themes": [
+      "Neobanks Review",
+      "Automated Budgeting",
+      "Credit Score Building",
+      "Side Hustle Taxes"
+    ],
+    "email": "nina@fintechsimplified.co",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@fintechsimplified",
+    "website": "https://fintechsimplified.co",
+    "audience_age": "20-35 (78%)",
+    "audience_gender": "50% Female, 50% Male",
+    "audience_geography": "United States (60%), UK (25%)",
+    "content_tone": "Accessible & Modern",
+    "recent_posts": [
+      "The Best Neobanks for Digital Nomads and Freelancers",
+      "How to Boost Your Credit Score by 50 Points in 60 Days",
+      "Tax Deductions Every Side Hustler Needs to Know"
+    ],
+    "brand_fit_score": 9.3,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fintech', verified 32,800 followers (5k-100k tier), strong 4.6% engagement rate on Instagram, brand score 9.3/10."
+    ]
+  },
+  {
+    "id": "inf_fb_12",
+    "name": "Amina Glow Organic",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/aminagloworganics",
+    "followers": 31700,
+    "engagement_rate": 4.3,
+    "niche": "Beauty",
+    "content_themes": [
+      "Ayurvedic Beauty",
+      "DIY Hair Masks",
+      "Clean Ingredients",
+      "Melanin Skincare"
+    ],
+    "email": "amina@organicglowpr.com",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@aminaglow",
+    "website": "https://aminaglow.com",
+    "audience_age": "20-35 (82%)",
+    "audience_gender": "90% Female, 10% Male",
+    "audience_geography": "United States (55%), UK (25%), Canada (10%)",
+    "content_tone": "Warm & Inspiring",
+    "recent_posts": [
+      "Turmeric & Saffron DIY Mask for Glowing Complexion",
+      "Hyperpigmentation Safe Chemical Peels for Rich Skin",
+      "Top Ayurvedic Herbs for Thick Hair"
+    ],
+    "brand_fit_score": 9.1,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Beauty', verified 31,700 followers (5k-100k tier), strong 4.3% engagement rate on Instagram, brand score 9.1/10."
+    ]
+  },
+  {
+    "id": "inf_game_04",
+    "name": "Dan Retro Quest",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@danretroquest",
+    "followers": 31200,
+    "engagement_rate": 5.6,
+    "niche": "Gaming",
+    "content_themes": [
+      "Retro Handhelds",
+      "Modding Game Boy",
+      "CRT Gaming",
+      "PlayStation 2 Hidden Gems"
+    ],
+    "email": "dan@retroquest.media",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/danretroquest",
+    "website": "https://retroquest.media",
+    "audience_age": "22-42 (86%)",
+    "audience_gender": "18% Female, 82% Male",
+    "audience_geography": "United States (50%), UK (25%), Japan (10%)",
+    "content_tone": "Nostalgic & Meticulous",
+    "recent_posts": [
+      "Installing an OLED Screen Mod on an Original Game Boy Advance",
+      "Top 7 JRPGs on PS2 That Still Hold Up in 2026",
+      "Why CRT Monitors Look Better for 90s Games"
+    ],
+    "brand_fit_score": 9.1,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Gaming', verified 31,200 followers (5k-100k tier), strong 5.6% engagement rate on YouTube, brand score 9.1/10."
+    ]
+  },
+  {
+    "id": "inf_life_06",
+    "name": "Anika Montessori Mom",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@anikamontessorimom",
+    "followers": 29800,
+    "engagement_rate": 5.3,
+    "niche": "Parenting",
+    "content_themes": [
+      "Bilingual Parenting",
+      "Child Independence Skills",
+      "Wooden Toy Reviews",
+      "Toddler Bedtime"
+    ],
+    "email": "Not Found",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/anikamontessorimom",
+    "website": "https://anikamontessori.com",
+    "audience_age": "24-38 (88%)",
+    "audience_gender": "88% Female, 12% Male",
+    "audience_geography": "United States (50%), India (30%), UK (15%)",
+    "content_tone": "Thoughtful & Educational",
+    "recent_posts": [
+      "Setting Up an Accessible Montessori Kitchen for Toddlers",
+      "Raising Bilingual Kids: Our Strategy and Daily Routine",
+      "Wooden Open-Ended Toys That Last for Years"
+    ],
+    "brand_fit_score": 9.3,
+    "status": "Skipped",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Parenting', verified 29,800 followers (5k-100k tier), strong 5.3% engagement rate on YouTube, brand score 9.3/10."
+    ]
+  },
+  {
+    "id": "inf_tech_04",
+    "name": "Julia Cloud Architect",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@juliacloudarchitect",
+    "followers": 29600,
+    "engagement_rate": 4.3,
+    "niche": "Technology",
+    "content_themes": [
+      "AWS & Kubernetes",
+      "DevOps Pipelines",
+      "Terraform Best Practices",
+      "System Design"
+    ],
+    "email": "julia@cloudarchitects.tech",
+    "secondary_platform": null,
+    "secondary_url": null,
+    "website": "https://juliacloud.tech",
+    "audience_age": "25-42 (88%)",
+    "audience_gender": "32% Female, 68% Male",
+    "audience_geography": "United States (50%), Germany (20%), India (18%)",
+    "content_tone": "Structured & Professional",
+    "recent_posts": [
+      "Kubernetes Multi-Cluster Deployment with GitOps & ArgoCD",
+      "Terraform vs Pulumi: Real Cloud Infrastructure Comparison",
+      "Zero-Downtime Database Migration Strategies"
+    ],
+    "brand_fit_score": 9.3,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Technology', verified 29,600 followers (5k-100k tier), strong 4.3% engagement rate on YouTube, brand score 9.3/10."
+    ]
+  },
+  {
+    "id": "inf_fb_01",
+    "name": "Maya Lin Skincare",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/mayalinskincare",
+    "followers": 28400,
+    "engagement_rate": 4.6,
+    "niche": "Beauty",
+    "content_themes": [
+      "Barrier Repair",
+      "K-Beauty Essentials",
+      "Morning Glow Routine",
+      "Ingredient Breakdown"
+    ],
+    "email": "collabs@mayalinskincare.com",
+    "secondary_platform": "TikTok",
+    "secondary_url": "https://tiktok.com/@mayalinskin",
+    "website": "https://mayalinskincare.com",
+    "audience_age": "18-24 (42%), 25-34 (46%)",
+    "audience_gender": "84% Female, 16% Male",
+    "audience_geography": "United States (62%), Canada (18%)",
+    "content_tone": "Educational & Gentle",
+    "recent_posts": [
+      "3 Ceramides You Need For Dry Winter Skin",
+      "Budget K-Beauty Sunscreen Review: Does It Pill?",
+      "AM Skincare Routine for Sensitive Barrier"
+    ],
+    "brand_fit_score": 9.2,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Beauty', verified 28,400 followers (5k-100k tier), strong 4.6% engagement rate on Instagram, brand score 9.2/10."
+    ]
+  },
+  {
+    "id": "inf_fin_04",
+    "name": "Dave Dividends & Chill",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@davedividends",
+    "followers": 27300,
+    "engagement_rate": 5.4,
+    "niche": "Fintech",
+    "content_themes": [
+      "Dividend Growth Investing",
+      "Passive Income",
+      "SCHD vs VOO",
+      "Tax-Advantaged Accounts"
+    ],
+    "email": "Not Found",
+    "secondary_platform": null,
+    "secondary_url": null,
+    "website": "https://dividendsandchill.com",
+    "audience_age": "25-50 (82%)",
+    "audience_gender": "15% Female, 85% Male",
+    "audience_geography": "United States (75%), Canada (15%)",
+    "content_tone": "Calm & Mathematical",
+    "recent_posts": [
+      "My Monthly $1,200 Dividend Portfolio Revealed",
+      "Top 5 Dividend Aristocrats for Safe Compounding",
+      "SCHD vs VIG vs DGRO: Which ETF Wins for 2026?"
+    ],
+    "brand_fit_score": 9.0,
+    "status": "Skipped",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fintech', verified 27,300 followers (5k-100k tier), strong 5.4% engagement rate on YouTube, brand score 9.0/10."
+    ]
+  },
+  {
+    "id": "inf_game_06",
+    "name": "Sam Speedrun Academy",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@samspeedrunacademy",
+    "followers": 24100,
+    "engagement_rate": 7.3,
+    "niche": "Gaming",
+    "content_themes": [
+      "Speedrunning History",
+      "Glitch Explanations",
+      "World Record Breakdowns",
+      "Frame Perfect Tricks"
+    ],
+    "email": "sam@speedrunacademy.com",
+    "secondary_platform": "Twitch",
+    "secondary_url": "https://twitch.tv/samspeedrun",
+    "website": "https://speedrunacademy.com",
+    "audience_age": "18-32 (82%)",
+    "audience_gender": "20% Female, 80% Male",
+    "audience_geography": "United States (55%), Canada (20%), UK (15%)",
+    "content_tone": "Documentary & Fascinating",
+    "recent_posts": [
+      "How One 1-Frame Glitch Saved 4 Minutes in Mario 64",
+      "The 10-Year Quest for the Perfect Elden Ring Speedrun Route",
+      "Why RNG Manipulation is the Hardest Skill in Gaming"
+    ],
+    "brand_fit_score": 9.2,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Gaming', verified 24,100 followers (5k-100k tier), strong 7.3% engagement rate on YouTube, brand score 9.2/10."
+    ]
+  },
+  {
+    "id": "inf_edge_03",
+    "name": "SpamBot Gamer 99",
+    "platform": "TikTok",
+    "profile_url": "https://tiktok.com/@spambotgamer99",
+    "followers": 24000,
+    "engagement_rate": 0.4,
+    "niche": "Gaming",
+    "content_themes": [
+      "Clips",
+      "Reuploads"
+    ],
+    "email": "spam@fakeinbox.io",
+    "secondary_platform": null,
+    "secondary_url": null,
+    "website": null,
+    "audience_age": null,
+    "audience_gender": null,
+    "audience_geography": null,
+    "content_tone": "Authentic",
+    "recent_posts": [
+      "Reuploaded funny clip #99"
+    ],
+    "brand_fit_score": 3.2,
+    "status": "Disqualified",
+    "filter_passed": false,
+    "filter_reasons": [
+      "Disqualified: Engagement rate (0.4%) is below minimum requirement (2.0%).",
+      "Disqualified: Brand fit score (3.2/10) is below minimum threshold (6.0/10)."
+    ]
+  },
+  {
+    "id": "inf_fb_11",
+    "name": "Leo Minimal Footwear",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@leominimalfootwear",
+    "followers": 23500,
+    "engagement_rate": 5.8,
+    "niche": "Fashion",
+    "content_themes": [
+      "Sneaker Maintenance",
+      "Barefoot Shoes",
+      "Leather Crafting",
+      "Minimalist Living"
+    ],
+    "email": "leo@minimalfootwear.com",
+    "secondary_platform": null,
+    "secondary_url": null,
+    "website": "https://minimalfootwear.com",
+    "audience_age": "25-45 (80%)",
+    "audience_gender": "30% Female, 70% Male",
+    "audience_geography": "United States (50%), Germany (25%), UK (15%)",
+    "content_tone": "Pragmatic & Informative",
+    "recent_posts": [
+      "Are Barefoot Dress Shoes Worth It for Work?",
+      "Restoring 10-Year-Old Horween Leather Boots",
+      "Top 4 Everyday White Leather Sneakers Compared"
+    ],
+    "brand_fit_score": 8.6,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fashion', verified 23,500 followers (5k-100k tier), strong 5.8% engagement rate on YouTube, brand score 8.6/10."
+    ]
+  },
+  {
+    "id": "inf_fit_06",
+    "name": "Elena Runner's High",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/elenarunshalf",
+    "followers": 22900,
+    "engagement_rate": 5.0,
+    "niche": "Fitness",
+    "content_themes": [
+      "Half Marathon Prep",
+      "Pacing Strategies",
+      "Running Shoes Review",
+      "Fuel Gels Guide"
+    ],
+    "email": "elena@runnershighcollective.com",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@elenarunshalf",
+    "website": "https://elenaruns.com",
+    "audience_age": "22-40 (76%)",
+    "audience_gender": "65% Female, 35% Male",
+    "audience_geography": "United States (50%), UK (30%)",
+    "content_tone": "Passionate & Friendly",
+    "recent_posts": [
+      "Carbon Plated Super Shoes: Are They Worth It for Everyday Runners?",
+      "How I Shaved 12 Minutes Off My Half Marathon PR",
+      "Gut Training for Long Runs: Energy Gels Tested"
+    ],
+    "brand_fit_score": 8.9,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fitness', verified 22,900 followers (5k-100k tier), strong 5.0% engagement rate on Instagram, brand score 8.9/10."
+    ]
+  },
+  {
+    "id": "inf_tech_10",
+    "name": "DevOps Ron",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@devopsron",
+    "followers": 21800,
+    "engagement_rate": 4.0,
+    "niche": "Technology",
+    "content_themes": [
+      "CI/CD Pipelines",
+      "GitHub Actions",
+      "Docker Tips",
+      "Linux Admin"
+    ],
+    "email": "Not Found",
+    "secondary_platform": null,
+    "secondary_url": null,
+    "website": null,
+    "audience_age": "24-40 (85%)",
+    "audience_gender": "15% Female, 85% Male",
+    "audience_geography": "United States (50%), UK (20%), India (20%)",
+    "content_tone": "Straightforward & Practical",
+    "recent_posts": [
+      "Mastering GitHub Actions Workflows in 30 Minutes",
+      "Multi-Stage Docker Builds for Ultra Small Images",
+      "Linux Shell Scripting Automation for System Admins"
+    ],
+    "brand_fit_score": 8.5,
+    "status": "Skipped",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Technology', verified 21,800 followers (5k-100k tier), strong 4.0% engagement rate on YouTube, brand score 8.5/10."
+    ]
+  },
+  {
+    "id": "inf_fb_05",
+    "name": "Marcus Dupond",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/marcusmensstyle",
+    "followers": 19400,
+    "engagement_rate": 4.1,
+    "niche": "Fashion",
+    "content_themes": [
+      "Men's Minimalist Fashion",
+      "Shoe Care",
+      "Tailoring Advice",
+      "Fragrance Reviews"
+    ],
+    "email": "marcus@dupondstyle.fr",
+    "secondary_platform": "YouTube",
+    "secondary_url": "https://youtube.com/@marcusdupond",
+    "website": "https://marcusdupond.fr",
+    "audience_age": "24-40 (82%)",
+    "audience_gender": "18% Female, 82% Male",
+    "audience_geography": "France (40%), United States (30%), UK (20%)",
+    "content_tone": "Sophisticated & Polished",
+    "recent_posts": [
+      "5 Timeless Outerwear Essentials Every Man Needs",
+      "How to Pick the Perfect Niche Fall Fragrance",
+      "Boots Guide: Goodyear Welt vs Blake Stitch"
+    ],
+    "brand_fit_score": 8.8,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fashion', verified 19,400 followers (5k-100k tier), strong 4.1% engagement rate on Instagram, brand score 8.8/10."
+    ]
+  },
+  {
+    "id": "inf_fit_07",
+    "name": "Zach Functional Core",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@zachfunctionalcore",
+    "followers": 18500,
+    "engagement_rate": 4.8,
+    "niche": "Fitness",
+    "content_themes": [
+      "Kettlebell Complexes",
+      "Core Stability",
+      "Rotational Power",
+      "Injury Prevention"
+    ],
+    "email": "zach@functionalcorelab.com",
+    "secondary_platform": null,
+    "secondary_url": null,
+    "website": "https://functionalcorelab.com",
+    "audience_age": "25-45 (82%)",
+    "audience_gender": "25% Female, 75% Male",
+    "audience_geography": "United States (60%), Australia (20%)",
+    "content_tone": "Pragmatic & Methodical",
+    "recent_posts": [
+      "5 Kettlebell Exercises for Bulletproof Lower Back",
+      "Rotational Core Training for Athletes",
+      "Turkish Get-Up Breakdown: Common Mistakes to Fix"
+    ],
+    "brand_fit_score": 8.8,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Fitness', verified 18,500 followers (5k-100k tier), strong 4.8% engagement rate on YouTube, brand score 8.8/10."
+    ]
+  },
+  {
+    "id": "inf_game_07",
+    "name": "Elena Board Game Vault",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@boardgamevault",
+    "followers": 17800,
+    "engagement_rate": 6.2,
+    "niche": "Gaming",
+    "content_themes": [
+      "Tabletop Strategy",
+      "Kickstarter Board Games",
+      "Solo Board Gaming",
+      "Rule Explanations"
+    ],
+    "email": "elena@boardgamevault.net",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/boardgamevault",
+    "website": "https://boardgamevault.net",
+    "audience_age": "22-45 (80%)",
+    "audience_gender": "45% Female, 55% Male",
+    "audience_geography": "United States (50%), UK (25%), Germany (15%)",
+    "content_tone": "Enthusiastic & Detailed",
+    "recent_posts": [
+      "Top 5 Heavy Euro Board Games for Solo Play",
+      "Ark Nova Strategy Guide: How to Optimize Action Cards",
+      "Best 2-Player Cooperative Board Games for Couples"
+    ],
+    "brand_fit_score": 9.0,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Gaming', verified 17,800 followers (5k-100k tier), strong 6.2% engagement rate on YouTube, brand score 9.0/10."
+    ]
+  },
+  {
+    "id": "inf_tech_05",
+    "name": "Liam Embedded & IoT",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@embeddedliam",
+    "followers": 16400,
+    "engagement_rate": 7.1,
+    "niche": "Technology",
+    "content_themes": [
+      "Raspberry Pi Projects",
+      "ESP32 Automation",
+      "Rust for Embedded",
+      "Robotics"
+    ],
+    "email": "Not Found",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/embeddedliam",
+    "website": null,
+    "audience_age": "20-40 (85%)",
+    "audience_gender": "15% Female, 85% Male",
+    "audience_geography": "United States (40%), UK (25%), Germany (20%)",
+    "content_tone": "Hands-On & Geeky",
+    "recent_posts": [
+      "Building an AI Security Camera with Raspberry Pi 5 & Coral TPU",
+      "Why I Rewrote My Firmware in Rust",
+      "Automating My Entire Home with Home Assistant and ESPHome"
+    ],
+    "brand_fit_score": 8.7,
+    "status": "Skipped",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Technology', verified 16,400 followers (5k-100k tier), strong 7.1% engagement rate on YouTube, brand score 8.7/10."
+    ]
+  },
+  {
+    "id": "inf_fin_07",
+    "name": "Leo Web3 Builder",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@leoweb3builder",
+    "followers": 15200,
+    "engagement_rate": 6.9,
+    "niche": "Crypto",
+    "content_themes": [
+      "Solidity Smart Contracts",
+      "DeFi Security Auditing",
+      "EVM Architecture",
+      "Decentralized Storage"
+    ],
+    "email": "leo@web3builderlab.org",
+    "secondary_platform": null,
+    "secondary_url": null,
+    "website": "https://web3builderlab.org",
+    "audience_age": "20-35 (90%)",
+    "audience_gender": "12% Female, 88% Male",
+    "audience_geography": "United States (45%), Germany (25%), India (20%)",
+    "content_tone": "Technical & Rigorous",
+    "recent_posts": [
+      "How Reentrancy Attacks Still Happen in Smart Contracts",
+      "Building a Decentralized Escrow Contract from Scratch",
+      "Auditing ERC-20 Implementations for Edge Cases"
+    ],
+    "brand_fit_score": 8.8,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Crypto', verified 15,200 followers (5k-100k tier), strong 6.9% engagement rate on YouTube, brand score 8.8/10."
+    ]
+  },
+  {
+    "id": "inf_fb_08",
+    "name": "Tara Clean Beauty",
+    "platform": "YouTube",
+    "profile_url": "https://youtube.com/@taracleanbeauty",
+    "followers": 14200,
+    "engagement_rate": 6.8,
+    "niche": "Beauty",
+    "content_themes": [
+      "Sensitive Skin Care",
+      "Eczema Solutions",
+      "Cruelty-Free Brands",
+      "Sunscreen Tests"
+    ],
+    "email": "tara@cleanbeautycollective.org",
+    "secondary_platform": "Instagram",
+    "secondary_url": "https://instagram.com/taracleanbeauty",
+    "website": null,
+    "audience_age": "22-38 (72%)",
+    "audience_gender": "86% Female, 14% Male",
+    "audience_geography": "United States (65%), Canada (20%)",
+    "content_tone": "Empathetic & Detailed",
+    "recent_posts": [
+      "Top 5 Barrier-Restoring Creams for Severe Eczema",
+      "Fragrance-Free Cleansers That Don't Strip Moisture",
+      "Mineral Sunscreen Wear Test: 10 Hours on Sensitive Skin"
+    ],
+    "brand_fit_score": 9.0,
+    "status": "Sent",
+    "filter_passed": true,
+    "filter_reasons": [
+      "Qualified: Matches target niche 'Beauty', verified 14,200 followers (5k-100k tier), strong 6.8% engagement rate on YouTube, brand score 9.0/10."
+    ]
+  },
+  {
+    "id": "inf_edge_02",
+    "name": "Nano Glow Beauty",
+    "platform": "Instagram",
+    "profile_url": "https://instagram.com/nanoglowbeauty",
+    "followers": 2800,
+    "engagement_rate": 4.2,
+    "niche": "Beauty",
+    "content_themes": [
+      "Lip Gloss",
+      "Morning Routine"
+    ],
+    "email": "nanoglow@gmail.com",
+    "secondary_platform": null,
+    "secondary_url": null,
+    "website": null,
+    "audience_age": null,
+    "audience_gender": null,
+    "audience_geography": null,
+    "content_tone": "Authentic",
+    "recent_posts": [
+      "My favorite lip tints"
+    ],
+    "brand_fit_score": 8.0,
+    "status": "Disqualified",
+    "filter_passed": false,
+    "filter_reasons": [
+      "Disqualified: Follower count (2,800) is below the micro-influencer minimum (5,000)."
+    ]
+  }
+]

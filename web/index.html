@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EDXSO AI | Micro-Influencer Outreach System</title>
+  <style>
+    :root {
+      --bg-primary: #0b0f19;
+      --bg-surface: #131b2e;
+      --bg-card: #1a233a;
+      --bg-card-hover: #222d4a;
+      --accent: #6366f1;
+      --accent-hover: #4f46e5;
+      --accent-glow: rgba(99, 102, 241, 0.25);
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --border: #2d3748;
+      --border-light: rgba(255, 255, 255, 0.08);
+      --radius: 12px;
+      --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header */
+    header {
+      background: rgba(19, 27, 46, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-light);
+      padding: 16px 32px;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-logo {
+      background: linear-gradient(135deg, #6366f1, #a855f7);
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 20px;
+      box-shadow: 0 0 15px var(--accent-glow);
+    }
+
+    .brand-title h1 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-title p {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    /* Buttons */
+    .btn {
+      padding: 9px 18px;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #6366f1, #4f46e5);
+      color: white;
+      box-shadow: 0 4px 14px var(--accent-glow);
+    }
+
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #4f46e5, #4338ca);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: var(--bg-card);
+      color: var(--text-main);
+      border-color: var(--border-light);
+    }
+
+    .btn-secondary:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--text-muted);
+    }
+
+    .btn-sm {
+      padding: 6px 12px;
+      font-size: 0.78rem;
+      border-radius: 6px;
+    }
+
+    /* Container */
+    main {
+      padding: 24px 32px;
+      flex: 1;
+      max-width: 1600px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    /* Metrics Grid */
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .metric-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+
+    .metric-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #6366f1, #a855f7);
+    }
+
+    .metric-card.success::before {
+      background: var(--success);
+    }
+
+    .metric-card.warning::before {
+      background: var(--warning);
+    }
+
+    .metric-card.danger::before {
+      background: var(--danger);
+    }
+
+    .metric-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 6px;
+    }
+
+    .metric-value {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .metric-sub {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* Filters Bar */
+    .controls-panel {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      margin-bottom: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .search-input {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: white;
+      padding: 9px 16px;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      min-width: 280px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px var(--accent-glow);
+    }
+
+    .filter-group {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    select.filter-select {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: white;
+      padding: 9px 14px;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      outline: none;
+      cursor: pointer;
+    }
+
+    /* Tabs */
+    .tabs-header {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 10px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: all 0.2s;
+    }
+
+    .tab-btn.active {
+      background: var(--bg-card);
+      color: var(--text-main);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .tab-btn:hover:not(.active) {
+      color: var(--text-main);
+    }
+
+    /* Table */
+    .table-container {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius);
+      overflow-x: auto;
+      box-shadow: var(--shadow);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.88rem;
+    }
+
+    thead th {
+      background: rgba(11, 15, 25, 0.6);
+      color: var(--text-muted);
+      font-weight: 600;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border-light);
+      transition: background 0.15s ease;
+    }
+
+    tbody tr:hover {
+      background: var(--bg-card-hover);
+    }
+
+    td {
+      padding: 14px 18px;
+      vertical-align: middle;
+    }
+
+    /* Badges */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .badge-success { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .badge-danger { background: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); }
+    .badge-warning { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+    .badge-info { background: rgba(99, 102, 241, 0.15); color: #a5b4fc; border: 1px solid rgba(99, 102, 241, 0.3); }
+    .badge-gray { background: rgba(148, 163, 184, 0.15); color: #cbd5e1; border: 1px solid rgba(148, 163, 184, 0.3); }
+
+    /* Modals */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(6px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      padding: 20px;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .modal-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-light);
+      border-radius: 16px;
+      max-width: 850px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 28px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+      position: relative;
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+      margin-bottom: 20px;
+    }
+
+    .modal-close {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    .message-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 18px;
+    }
+
+    .message-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+
+    .message-content {
+      white-space: pre-wrap;
+      line-height: 1.6;
+      font-size: 0.92rem;
+      color: #e2e8f0;
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--bg-card);
+      border: 1px solid var(--accent);
+      color: white;
+      padding: 14px 22px;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      z-index: 200;
+      display: none;
+      animation: slideIn 0.3s ease;
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(100px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .chip {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-light);
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      display: inline-block;
+      margin: 2px 2px 2px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="brand">
+      <div class="brand-logo">⚡</div>
+      <div class="brand-title">
+        <h1>EDXSO AI Micro-Influencer Outreach System</h1>
+        <p>Discovery • Classification • Enrichment • AI Personalization • Outreach Dispatch</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button class="btn btn-secondary" onclick="exportData('dataset')">📥 Export Dataset</button>
+      <button class="btn btn-secondary" onclick="exportData('tracker')">📊 Export Tracker</button>
+      <button class="btn btn-primary" id="btn-run-pipeline" onclick="triggerPipeline()">
+        <span>🚀</span> Run Full Pipeline
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Metrics Cards -->
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <div class="metric-label">Discovered Influencers</div>
+        <div class="metric-value" id="stat-total">--</div>
+        <div class="metric-sub">Across 9 Niches & 3 Platforms</div>
+      </div>
+      <div class="metric-card success">
+        <div class="metric-label">Qualified (5k - 100k)</div>
+        <div class="metric-value" id="stat-qualified">--</div>
+        <div class="metric-sub" id="stat-qualified-sub">Passed all filter criteria</div>
+      </div>
+      <div class="metric-card danger">
+        <div class="metric-label">Disqualified / Audited</div>
+        <div class="metric-value" id="stat-disqualified">--</div>
+        <div class="metric-sub">Detailed pass/fail reasons logged</div>
+      </div>
+      <div class="metric-card warning">
+        <div class="metric-label">Verified Emails</div>
+        <div class="metric-value" id="stat-emails">--</div>
+        <div class="metric-sub">Zero guessed addresses</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Outreach Dispatched</div>
+        <div class="metric-value" id="stat-sent">--</div>
+        <div class="metric-sub">Anti-duplicate guaranteed</div>
+      </div>
+    </div>
+
+    <!-- Controls Panel -->
+    <div class="controls-panel">
+      <input type="text" id="search-box" class="search-input" placeholder="🔍 Search by name, theme, handle..." oninput="renderTable()" />
+      <div class="filter-group">
+        <select id="niche-filter" class="filter-select" onchange="renderTable()">
+          <option value="">All Niches</option>
+          <option value="Beauty">Beauty</option>
+          <option value="Fashion">Fashion</option>
+          <option value="Technology">Technology</option>
+          <option value="Fitness">Fitness</option>
+          <option value="Fintech">Fintech</option>
+          <option value="Crypto">Crypto</option>
+          <option value="Gaming">Gaming</option>
+          <option value="Lifestyle">Lifestyle</option>
+          <option value="Parenting">Parenting</option>
+        </select>
+        <select id="status-filter" class="filter-select" onchange="renderTable()">
+          <option value="">All Statuses</option>
+          <option value="Qualified">Qualified</option>
+          <option value="Disqualified">Disqualified</option>
+          <option value="Sent">Sent / Simulated</option>
+          <option value="Skipped">Skipped</option>
+        </select>
+        <select id="platform-filter" class="filter-select" onchange="renderTable()">
+          <option value="">All Platforms</option>
+          <option value="YouTube">YouTube</option>
+          <option value="Instagram">Instagram</option>
+          <option value="TikTok">TikTok</option>
+        </select>
+        <button class="btn btn-secondary btn-sm" onclick="resetFilters()">Reset</button>
+      </div>
+    </div>
+
+    <!-- Tabs Navigation -->
+    <div class="tabs-header">
+      <button class="tab-btn active" id="tab-influencers-btn" onclick="switchTab('influencers')">Discovered Influencer Dataset (<span id="count-influencers">0</span>)</button>
+      <button class="tab-btn" id="tab-tracker-btn" onclick="switchTab('tracker')">Outreach Tracker & Dispatch Logs (<span id="count-tracker">0</span>)</button>
+    </div>
+
+    <!-- View: Influencers Table -->
+    <div id="view-influencers" class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Influencer Name</th>
+            <th>Platform</th>
+            <th>Followers</th>
+            <th>Engagement</th>
+            <th>Niche</th>
+            <th>Contact Email</th>
+            <th>Content Themes</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="influencers-tbody">
+          <tr><td colspan="9" style="text-align:center; padding: 30px;">Loading dataset...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- View: Outreach Tracker Table -->
+    <div id="view-tracker" class="table-container" style="display: none;">
+      <table>
+        <thead>
+          <tr>
+            <th>Influencer</th>
+            <th>Email</th>
+            <th>Platform</th>
+            <th>Channel</th>
+            <th>Sent Date</th>
+            <th>Status</th>
+            <th>Delivery Notes</th>
+            <th>Outreach Content</th>
+          </tr>
+        </thead>
+        <tbody id="tracker-tbody">
+          <tr><td colspan="8" style="text-align:center; padding: 30px;">Loading logs...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+  </main>
+
+  <!-- Modal: AI Message Preview -->
+  <div id="message-modal" class="modal-overlay" onclick="closeModal(event, 'message-modal')">
+    <div class="modal-card" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div>
+          <h2 id="modal-influencer-name">Influencer AI Outreach Pitch</h2>
+          <p id="modal-influencer-meta" style="color: var(--text-muted); font-size: 0.85rem;"></p>
+        </div>
+        <button class="modal-close" onclick="closeModalDirect('message-modal')">&times;</button>
+      </div>
+
+      <!-- Email Pitch Box -->
+      <div class="message-box">
+        <div class="message-header">
+          <div>
+            <strong>✉️ Email Collaboration Pitch</strong>
+            <span id="modal-email-wc" class="badge badge-info" style="margin-left: 8px;">-- words</span>
+            <span id="modal-email-angle" class="badge badge-warning" style="margin-left: 4px;">Angle</span>
+          </div>
+          <button class="btn btn-secondary btn-sm" onclick="copyToClipboard('modal-email-text')">📋 Copy Email</button>
+        </div>
+        <div id="modal-email-text" class="message-content"></div>
+      </div>
+
+      <!-- Instagram DM Box -->
+      <div class="message-box">
+        <div class="message-header">
+          <div>
+            <strong>💬 Instagram Direct Message (DM)</strong>
+            <span id="modal-dm-wc" class="badge badge-info" style="margin-left: 8px;">-- words</span>
+          </div>
+          <button class="btn btn-secondary btn-sm" onclick="copyToClipboard('modal-dm-text')">📋 Copy DM</button>
+        </div>
+        <div id="modal-dm-text" class="message-content"></div>
+      </div>
+
+      <div style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 15px;">
+        <button class="btn btn-secondary" onclick="closeModalDirect('message-modal')">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Filter Audit Reasons -->
+  <div id="audit-modal" class="modal-overlay" onclick="closeModal(event, 'audit-modal')">
+    <div class="modal-card" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div>
+          <h2 id="audit-modal-name">Filter & Classification Audit</h2>
+          <p id="audit-modal-subtitle" style="color: var(--text-muted); font-size: 0.85rem;"></p>
+        </div>
+        <button class="modal-close" onclick="closeModalDirect('audit-modal')">&times;</button>
+      </div>
+
+      <div id="audit-reasons-list" style="line-height: 1.8; font-size: 0.95rem;"></div>
+
+      <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+        <button class="btn btn-secondary" onclick="closeModalDirect('audit-modal')">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="toast">Action completed successfully</div>
+
+  <script>
+    let allInfluencers = [];
+    let allLogs = [];
+    let allMessages = {};
+
+    async function loadData() {
+      try {
+        const [infRes, statsRes, logsRes] = await Promise.all([
+          fetch('/api/influencers'),
+          fetch('/api/stats'),
+          fetch('/api/logs')
+        ]);
+        
+        allInfluencers = await infRes.json();
+        const stats = await statsRes.json();
+        allLogs = await logsRes.json();
+
+        // Update Stats Cards
+        document.getElementById('stat-total').innerText = stats.total_discovered || allInfluencers.length;
+        document.getElementById('stat-qualified').innerText = stats.qualified || 0;
+        document.getElementById('stat-disqualified').innerText = stats.disqualified || 0;
+        document.getElementById('stat-emails').innerText = stats.with_email || 0;
+        document.getElementById('stat-sent').innerText = stats.outreach_sent || 0;
+
+        document.getElementById('count-influencers').innerText = allInfluencers.length;
+        document.getElementById('count-tracker').innerText = allLogs.length;
+
+        renderTable();
+        renderTrackerTable();
+      } catch (err) {
+        console.error("Failed loading data", err);
+      }
+    }
+
+    function renderTable() {
+      const search = document.getElementById('search-box').value.toLowerCase();
+      const niche = document.getElementById('niche-filter').value;
+      const status = document.getElementById('status-filter').value;
+      const platform = document.getElementById('platform-filter').value;
+
+      const filtered = allInfluencers.filter(inf => {
+        const matchSearch = !search || 
+          inf.name.toLowerCase().includes(search) || 
+          inf.niche.toLowerCase().includes(search) || 
+          (inf.content_themes && inf.content_themes.some(t => t.toLowerCase().includes(search)));
+        
+        const matchNiche = !niche || inf.niche.toLowerCase() === niche.toLowerCase();
+        const matchPlatform = !platform || inf.platform.toLowerCase() === platform.toLowerCase();
+        
+        let matchStatus = true;
+        if (status === "Qualified") matchStatus = inf.filter_passed === true;
+        else if (status === "Disqualified") matchStatus = inf.filter_passed === false;
+        else if (status === "Sent") matchStatus = inf.status === "Sent" || inf.status === "Simulated";
+        else if (status === "Skipped") matchStatus = inf.status === "Skipped";
+
+        return matchSearch && matchNiche && matchPlatform && matchStatus;
+      });
+
+      const tbody = document.getElementById('influencers-tbody');
+      if (!filtered.length) {
+        tbody.innerHTML = `<tr><td colspan="9" style="text-align:center; padding: 30px; color: var(--text-muted);">No matching influencers found.</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = filtered.map(inf => {
+        const statusBadge = inf.filter_passed 
+          ? `<span class="badge badge-success">Qualified (${inf.status})</span>`
+          : `<span class="badge badge-danger">Disqualified</span>`;
+
+        const emailDisplay = (inf.email && inf.email !== "Not Found")
+          ? `<span style="color:#38bdf8;">${inf.email}</span>`
+          : `<span class="badge badge-gray">Not Found</span>`;
+
+        const themes = (inf.content_themes || []).slice(0, 2).map(t => `<span class="chip">${t}</span>`).join('');
+
+        return `
+          <tr>
+            <td>
+              <strong><a href="${inf.profile_url}" target="_blank" style="color:var(--text-main); text-decoration:none;">${inf.name}</a></strong>
+              <div style="font-size:0.75rem; color:var(--text-muted);">${inf.profile_url}</div>
+            </td>
+            <td><span class="badge badge-info">${inf.platform}</span></td>
+            <td><strong>${inf.followers.toLocaleString()}</strong></td>
+            <td><span style="color:#10b981; font-weight:600;">${inf.engagement_rate}%</span></td>
+            <td><span class="badge badge-warning">${inf.niche}</span></td>
+            <td>${emailDisplay}</td>
+            <td>${themes}</td>
+            <td>${statusBadge}</td>
+            <td>
+              <div style="display:flex; gap:6px;">
+                <button class="btn btn-secondary btn-sm" onclick="openMessageModal('${inf.id}')">✉️ Pitch</button>
+                <button class="btn btn-secondary btn-sm" onclick="openAuditModal('${inf.id}')">ℹ️ Audit</button>
+              </div>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function renderTrackerTable() {
+      const tbody = document.getElementById('tracker-tbody');
+      if (!allLogs.length) {
+        tbody.innerHTML = `<tr><td colspan="8" style="text-align:center; padding: 30px; color: var(--text-muted);">No outreach dispatched yet. Run pipeline to generate outreach logs.</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = allLogs.map(log => {
+        let badgeClass = 'badge-success';
+        if (log.status === 'Skipped') badgeClass = 'badge-warning';
+        if (log.status === 'Failed') badgeClass = 'badge-danger';
+
+        return `
+          <tr>
+            <td><strong>${log.influencer_name}</strong></td>
+            <td>${log.email !== 'Not Found' ? log.email : '<span class="badge badge-gray">Not Found</span>'}</td>
+            <td><span class="badge badge-info">${log.platform}</span></td>
+            <td><span class="badge badge-gray">${log.channel}</span></td>
+            <td><small>${log.sent_date}</small></td>
+            <td><span class="badge ${badgeClass}">${log.status}</span></td>
+            <td style="font-size:0.8rem; color:var(--text-muted); max-width:260px;">${log.delivery_notes || '--'}</td>
+            <td>
+              <button class="btn btn-secondary btn-sm" onclick="openMessageModal('${log.influencer_id}')">View Pitch</button>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    async function openMessageModal(influencerId) {
+      const inf = allInfluencers.find(i => i.id === influencerId);
+      if (!inf) return;
+
+      try {
+        const res = await fetch(`/api/message/${influencerId}`);
+        const msg = await res.json();
+
+        document.getElementById('modal-influencer-name').innerText = `${inf.name} — Personalized Pitch`;
+        document.getElementById('modal-influencer-meta').innerText = `${inf.platform} • ${inf.followers.toLocaleString()} followers • ${inf.engagement_rate}% engagement • Model: ${msg.model_used || 'AI Engine'}`;
+
+        document.getElementById('modal-email-wc').innerText = `${msg.email_word_count || 0} words (Target: 60-90)`;
+        document.getElementById('modal-email-angle').innerText = msg.collaboration_angle || 'Partnership';
+        document.getElementById('modal-email-text').innerText = msg.email_pitch || 'No email generated.';
+
+        document.getElementById('modal-dm-wc').innerText = `${msg.dm_word_count || 0} words (Target: 15-30)`;
+        document.getElementById('modal-dm-text').innerText = msg.instagram_dm || 'No DM generated.';
+
+        document.getElementById('message-modal').classList.add('active');
+      } catch (err) {
+        showToast("Error loading message details");
+      }
+    }
+
+    function openAuditModal(influencerId) {
+      const inf = allInfluencers.find(i => i.id === influencerId);
+      if (!inf) return;
+
+      document.getElementById('audit-modal-name').innerText = `${inf.name} Qualification Audit`;
+      document.getElementById('audit-modal-subtitle').innerText = `Category: ${inf.niche} | Platform: ${inf.platform} | Follower Tier: ${inf.followers.toLocaleString()}`;
+
+      const reasons = inf.filter_reasons || [];
+      const isPassed = inf.filter_passed;
+
+      let html = `<div style="margin-bottom:15px;">
+        <strong>Status: </strong> ${isPassed ? '<span class="badge badge-success">Passed All Filters</span>' : '<span class="badge badge-danger">Disqualified</span>'}
+      </div>`;
+
+      html += `<div style="background:var(--bg-card); padding:14px; border-radius:8px; border:1px solid var(--border);">`;
+      html += `<h4 style="margin-bottom:8px;">Evaluation Audit Trail:</h4>`;
+      html += `<ul style="padding-left:20px;">`;
+      reasons.forEach(r => {
+        html += `<li style="margin-bottom:6px;">${r}</li>`;
+      });
+      html += `</ul></div>`;
+
+      document.getElementById('audit-reasons-list').innerHTML = html;
+      document.getElementById('audit-modal').classList.add('active');
+    }
+
+    function closeModal(e, id) {
+      if (e.target.id === id) closeModalDirect(id);
+    }
+
+    function closeModalDirect(id) {
+      document.getElementById(id).classList.remove('active');
+    }
+
+    function switchTab(tab) {
+      document.getElementById('tab-influencers-btn').classList.toggle('active', tab === 'influencers');
+      document.getElementById('tab-tracker-btn').classList.toggle('active', tab === 'tracker');
+      document.getElementById('view-influencers').style.display = tab === 'influencers' ? 'block' : 'none';
+      document.getElementById('view-tracker').style.display = tab === 'tracker' ? 'block' : 'none';
+    }
+
+    function resetFilters() {
+      document.getElementById('search-box').value = '';
+      document.getElementById('niche-filter').value = '';
+      document.getElementById('status-filter').value = '';
+      document.getElementById('platform-filter').value = '';
+      renderTable();
+    }
+
+    async function triggerPipeline() {
+      const btn = document.getElementById('btn-run-pipeline');
+      btn.disabled = true;
+      btn.innerHTML = `<span>⏳</span> Running Pipeline...`;
+
+      try {
+        const res = await fetch('/api/pipeline/run', { method: 'POST' });
+        const data = await res.json();
+        showToast(`Pipeline executed! ${data.summary.messages_generated} pitches generated, ${data.summary.emails_dispatched} emails sent.`);
+        await loadData();
+      } catch (err) {
+        showToast("Error running pipeline");
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = `<span>🚀</span> Run Full Pipeline`;
+      }
+    }
+
+    function exportData(type) {
+      window.location.href = `/api/export/${type}`;
+      showToast(`Downloading ${type === 'dataset' ? 'Influencer Dataset' : 'Outreach Tracker'}...`);
+    }
+
+    function copyToClipboard(elementId) {
+      const text = document.getElementById(elementId).innerText;
+      navigator.clipboard.writeText(text);
+      showToast("Copied to clipboard! 📋");
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      toast.innerText = msg;
+      toast.style.display = 'block';
+      setTimeout(() => { toast.style.display = 'none'; }, 3000);
+    }
+
+    // Initialize
+    loadData();
+  </script>
+</body>
+</html>
