@@ -37,7 +37,7 @@ class OutreachAppHandler(BaseHTTPRequestHandler):
 
         # 1. Static UI Route
         if path in ["/", "/index.html"]:
-            html_file = os.path.join(os.path.dirname(__file__), "web", "index.html")
+            html_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "web", "index.html")
             try:
                 with open(html_file, "rb") as f:
                     content = f.read()
@@ -158,7 +158,7 @@ def run_server(port: int = 8080):
 
 
 if __name__ == "__main__":
-    port = 8080
+    port = int(os.environ.get("PORT", "8080"))
     if len(sys.argv) > 1 and sys.argv[1].isdigit():
         port = int(sys.argv[1])
     run_server(port)
